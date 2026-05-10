@@ -1,1 +1,6 @@
 hey there
+
+This file was updated with a few more lines.
+You can use it for quick notes or greeting text.
+
+Happy coding!
