@@ -3,4 +3,9 @@ hey there
 This file was updated with a few more lines.
 You can use it for quick notes or greeting text.
 
+Here are a few extra lines added in the middle:
+- Line one of the new section.
+- Line two with some additional context.
+- Line three to round things out.
+
 Happy coding!
