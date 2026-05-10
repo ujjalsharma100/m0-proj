@@ -8,10 +8,16 @@ def format_greeting(name: str) -> str:
     return "Running in quiet mode."
 
 
+def normalize_display_name(raw: str) -> str:
+    """Strip and title-case a non-empty name; empty input stays empty."""
+    stripped = raw.strip()
+    return stripped.title() if stripped else ""
+
+
 def main() -> None:
     print("Hello from app.py")
-    name = input("Your name (optional, press Enter to skip): ").strip()
-    print(format_greeting(name))
+    name = input("Your name (optional, press Enter to skip): ")
+    print(format_greeting(normalize_display_name(name)))
 
 
 if __name__ == "__main__":
